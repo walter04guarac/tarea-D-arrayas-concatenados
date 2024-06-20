@@ -6,6 +6,7 @@ let result;
 
 let array=[0,2,4,8];
 
+function concatenarElements(array){
 for(i=0; i<array.length; i++){
     
     for(j=0; j<array.length; j++){
@@ -15,3 +16,6 @@ for(i=0; i<array.length; i++){
         alert(one +""+ two);
     }
 }
+}
+
+concatenarElements(array)
